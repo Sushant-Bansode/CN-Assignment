@@ -1,0 +1,10 @@
+Wireshark practical
+1. first connect the lans of the computers to the switch and see if the lights are glowing, (one light is power light)
+2. wired network settings
+3. ipv4, change dhcp to manual
+4. enter address like 121.0.0.2, enter network 255.255.255.0, then enter gateway that is enter the address of computer you want to connect with.... like 121.0.0.5
+5. now click apply, toggle on off connection
+6. open terminal, run ping 121.0.0.5 which is address of the computer we want to connect
+7. open new terminal and enter sudo wireshark
+8. in wireshark select emp ethernet and click fin icon
+9. you will see the packets running
